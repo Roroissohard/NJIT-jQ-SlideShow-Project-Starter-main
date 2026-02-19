@@ -2,6 +2,11 @@ let mCurrentIndex = 0 // Tracks the current image index
 let mImages = [] // Array to hold GalleryImage objects
 const mUrl = 'myimages.json' // Replace with actual JSON URL
 const mWaitTime = 5000 // Timer interval in milliseconds
+$.getJSON(mUrl, function(data) {
+  
+    myImages = data;
+   
+});
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
 
