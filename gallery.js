@@ -2,6 +2,7 @@ let mCurrentIndex = 0 // Tracks the current image index
 let mImages = [] // Array to hold GalleryImage objects
 const mUrl = 'myimages.json' // Replace with actual JSON URL
 const mWaitTime = 5000 // Timer interval in milliseconds
+
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
 
@@ -14,14 +15,18 @@ $(document).ready(() => {
   // Select the "Next Photo" button and add a click event to call showNextPhoto
 
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-
+$.getJSON('myimages.json', function(data) {
+  
+    myImages = data;
+     console.log("Data loaded into mImages:", mImages);
+    processImages();
+});
   // Call fetchJSON() to load the initial set of images
   fetchJSON()
 })
 
 // Function to fetch JSON data and store it in mImages
 function fetchJSON () {
-$.getJSON() === $.ajax({url: 'mUrl', dateType: 'const', method: 'GET'})
   // On success, parse the JSON and push each image object into mImages array
   // After JSON is loaded, call swapPhoto() to display the first image
 }

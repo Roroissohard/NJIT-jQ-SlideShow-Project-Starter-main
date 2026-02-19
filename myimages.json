@@ -1,64 +1,64 @@
 {
-    "images": [
+    "mImages": [
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/dustydivot.jpg",
+            "imgLocation": "Dusty Divot",
+            "description": "A massive, forested crater created by the meteor in Season 4, featuring a central government research facility built to study the visitor.",
+            "date": "05/01/2018"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/greasygrove.jpg",
+            "imgLocation": "Greasy Grove",
+            "description": "A suburban neighborhood featuring a fast-food restaurant (Durrr Burger, later Tacos) and a surrounding residential area, often covered in ice during colder seasons.",
+            "date": "09/26/2017"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/hauntedhills.jpg",
+            "imgLocation": "Haunted Hills",
+            "description": "A spooky, quiet graveyard in the northwest corner filled with crypts and tombstones, often featuring a large gothic castle on the nearby hill.",
+            "date": "12/14/2017"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/junkjunction.png",
+            "imgLocation": "Junk Junction",
+            "description": "A northern scrapyard filled with compacted cars, shipping containers, and a large metal llama landmark, making it a high-material, low-traffic spot.",
+            "date": "12/14/2017"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/luckylanding.png",
+            "imgLocation": "Lucky Landing",
+            "description": "An East Asian-themed town with pink trees, pagoda-style buildings, and a large central shrine, located at the southernmost edge of the map.",
+            "date": "12/14/2017"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/neotilted.jpg",
+            "imgLocation": "Neo Tilted",
+            "description": "A futuristic, neon-lit city that replaced Tilted Towers in Season 9, featuring slipstreams, verticality, and high-tech buildings.",
+            "date": "05/09/2019"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/paradisepalms.png",
+            "imgLocation": "Paradise Palms",
+            "description": "A desert-themed metropolis with modern high-rises and a hotel that replaced the swampy Moisty Mire, surrounded by a large arid biome.",
+            "date": "07/12/2018"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/pleasantpark.jpg",
+            "imgLocation": "Pleasant Park",
+            "description": "A classic, residential suburb with a central soccer field and park, known for being one of the longest-standing named locations in the game.",
+            "date": "09/26/2017"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/polarpeak.png",
+            "imgLocation": "Polar Peak",
+            "description": "A massive, snowy mountain containing a grand castle (the Ice King's fortress), located in the southwest corner with ziplines for quick access.",
+            "date": "12/06/2018"
         },
         {
-            "imgPath": "",
-            "imgLocation": "",
-            "description": "",
-            "date": ""
+            "imgPath": "img/places/retailrow.png",
+            "imgLocation": "Retail Row",
+            "description": " A bustling shopping district and residential area, recognized as one of the original locations and a frequent hot-drop spot for loot. ",
+            "date": "09/26/2017"
         }
   ]
 }
