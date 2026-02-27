@@ -8,23 +8,27 @@ $.getJSON(mUrl, function(data) {
    
 });
 $(document).ready(() => {
-  $('.details').hide() // Hide details initially
+  $('.details').hide()  // Hide details initially
 
   // Call a function here to start the timer for the slideshow
-
+startTimer()
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
-
+$('.moreIndicator').click(function(){
+    $().toggleClass('rot270 rot90')
+    $('.details').slideToggle()
+  })
   // Select the "Next Photo" button and add a click event to call showNextPhoto
 
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-$.getJSON('myimages.json', function(data) {
-  
-    myImages = data;
-     console.log("Data loaded into mImages:", mImages);
-    processImages();
-});
+$('#nextPhoto').click(function() {
+  showNextPhoto()
+ })
+
+  $('#prevPhoto').click(function(){
+    showPrevPhoto()
+  })
   // Call fetchJSON() to load the initial set of images
   fetchJSON()
 })
@@ -34,6 +38,7 @@ function fetchJSON () {
   // On success, parse the JSON and push each image object into mImages array
   // After JSON is loaded, call swapPhoto() to display the first image
 }
+
 
 // Function to swap and display the next photo in the slideshow
 function swapPhoto () {

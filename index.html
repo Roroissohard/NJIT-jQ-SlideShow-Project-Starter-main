@@ -16,19 +16,21 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container my-4">
         <div id="photoBooth" class="text-center bg-white p-3 rounded shadow-sm mx-auto">
-            <h1 class="banner mb-3">IS219 Slide Show</h1>
+            <h1 class="banner mb-3">IS219 Slide Show (Fortnite Locations)</h1>
             <div id="slideShow" class="row justify-content-center">
 
                 <!-- Photo Holder Section -->
                 <div class="col-12 col-md-8 photoHolder mb-3">
                     <img class="thumbnail img-fluid" id="photo"
-                        src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
+                        src="img/places/dustydivot.jpg" alt="Gallery Image" />
                 </div>
 
                 <!-- More Indicator and Navigation Controls -->
@@ -42,9 +44,9 @@
 
                 <!-- Photo Details Section -->
                 <div class="col-12 details mt-3 p-2">
-                    <p class="location">Location: </p>
+                    <p class="City">City: </p>
                     <p class="description">Description: </p>
-                    <p class="date">Date: </p>
+                    <p class="released">Released: </p>
                 </div>
             </div>
         </div>
@@ -55,5 +57,3 @@
     <!-- Custom JS -->
     <script src="gallery.js"></script>
 </body>
-
-</html>
